@@ -355,43 +355,43 @@
 	// Enhancer Belief
 	{
 		"name": "Defender of the Faith",
-		"cost": 560,
+		"cost": 480,
 		"isWonder": true,
 		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Cost increases by [-20] per owned city"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Cost increases by [-40] per owned city"]
 	},	
 	{
 		"name": "Just War",
-		"cost": 560,
+		"cost": 480,
 		"isWonder": true,
 		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Enemy Land]","Cost increases by [-20] per owned city"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Enemy Land]","Cost increases by [-40] per owned city"]
 	},
 	{
 		"name": "Reliquary",
-		"cost": 560,
+		"cost": 480,
 		"isWonder": true,
 		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person","Cost increases by [-20] per owned city"]
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Cost increases by [-40] per owned city"]
 	},
 		{
 		"name": "Messiah",
-		"cost": 560,
+		"cost": 480,
 		"isWonder": true,
 		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[25]% great person generation in all cities","Cost increases by [-20] per owned city"]
+		"uniques": ["+[25]% great person generation in all cities","Cost increases by [-40] per owned city"]
 	},
 	// Pantheons
 	{
