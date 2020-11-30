@@ -371,7 +371,7 @@
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Enemy Land]","Cost increases by [-40] per owned city"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Cost increases by [-40] per owned city"]
 	},
 	{
 		"name": "Reliquary",
