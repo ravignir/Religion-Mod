@@ -1,0 +1,11 @@
+[		
+	{
+		"name": "Holy Site",
+		"culture": 5,
+		"uniques": ["Great Improvement","[+3 Gold] once [Flight] is discovered"]
+	},
+	{
+		"name": "Found Religion",
+		"uniques": ["Great Improvement","Allows Religion - place it next to city with Pantheon"]
+	},
+]

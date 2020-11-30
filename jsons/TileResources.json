@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Faith",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+		{
+		"name": "Mosque",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+		{
+		"name": "Pagoda",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+		{
+		"name": "Cathedral",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1, "production": 1},
+	},	
+]	
