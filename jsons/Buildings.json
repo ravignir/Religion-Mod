@@ -1,10 +1,11 @@
 [
 	// Religion and Pantheons
-	{
-		"name": "Faith"
+		{
+		"name": "Found a Pantheon"
 		"isNationalWonder": true,
-		"cost": -1,
-		"uniques": ["Provides [1] [Faith]"]
+		"requiredBuildingInAllCities": "Shrine",
+		"cost": 120,
+		"uniques": ["Allows to choose Pantheon","Cost increases by [-20] per owned city"]
 	},
 	{
 		"name": "Pantheon"
@@ -89,13 +90,14 @@
 		"requiredTech": "Calendar",
 		"isNationalWonder": true,
 		"requiredBuilding": "Pantheon",
+		"requiredBuildingInAllCities": "Temple",
 		"cost": 240,
-		"uniques": ["Free [Great Prophet] appears","Cost increases by [-30] per owned city"]
+		"uniques": ["Free [Great Prophet] appears","Cost increases by [-40] per owned city"]
 	},	
 			{	"name": "Great Prophet",
 		"requiredTech": "Calendar",
-		"requiredBuilding": "Pantheon",
-		"cost": 420,
+		"requiredBuilding": "Religion",
+		"cost": 480,
 		"uniques": ["Free [Great Prophet] appears","Sell for another Prophet"]
 	},	
 	// Religion
@@ -256,7 +258,6 @@
 		"name": "Ascetism",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -266,7 +267,6 @@
 		"name": "Pagodas",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -276,7 +276,6 @@
 		"name": "Mosques",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -286,7 +285,6 @@
 		"name": "Cathedrals",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -296,7 +294,6 @@
 		"name": "Divine Inspiration",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -306,7 +303,6 @@
 		"name": "Choral Music",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -316,7 +312,6 @@
 		"name": "Feed the World",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -326,7 +321,6 @@
 		"name": "Religious Art",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -336,7 +330,6 @@
 		"name": "Guruship",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -346,7 +339,6 @@
 		"name": "Swords into Plowshares",
 		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
@@ -355,273 +347,246 @@
 	// Enhancer Belief
 	{
 		"name": "Defender of the Faith",
-		"cost": 480,
+		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Cost increases by [-40] per owned city"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Must be next to [Enhance Religion]"]
 	},	
 	{
 		"name": "Just War",
-		"cost": 480,
+		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Cost increases by [-40] per owned city"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Must be next to [Enhance Religion]"]
 	},
 	{
 		"name": "Reliquary",
-		"cost": 480,
+		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person","Cost increases by [-40] per owned city"]
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Enhance Religion]"]
 	},
 		{
 		"name": "Messiah",
-		"cost": 480,
+		"cost": -1,
 		"isWonder": true,
-		"requiredBuildingInAllCities": "Temple",
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[25]% great person generation in all cities","Cost increases by [-40] per owned city"]
+		"uniques": ["+[25]% great person generation in all cities","Must be next to [Enhance Religion]"]
 	},
 	// Pantheons
 	{
 		"name": "Ancestor Worship",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Shrine]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Shrine]"]
 	},
 	{
 		"name": "Dance of the Aurora",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
-		"providesFreeBuilding": "Pantheon",
+		"requiredBuilding": "Found a Pantheon",
+		"providesFreeBuilding": "Found a Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Tundra]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Tundra]"]
 	},
 	{
 		"name": "Desert Folklore",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Desert]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Desert]"]
 	},
 	{
 		"name": "Earth Mother",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]"]
 	},
 	{
 		"name": "Fertility Rites",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["+[10]% growth in all cities","Cost increases by [-20] per owned city"]
+		"uniques": ["+[10]% growth in all cities"]
 	},
 	{
 		"name": "God of Craftsmen",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Production] in all cities","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Production] in all cities"]
 	},
 	{
 		"name": "God of the Open Sky",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Pasture]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Pasture]"]
 	},
 	{
 		"name": "God of the Sea",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Production] from every [Fishing Boats]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Production] from every [Fishing Boats]"]
 	},	
 	{
 		"name": "God of War",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["Earn [10]% of [Land] opponent's [Cost] as [Culture] for kills","Cost increases by [-20] per owned city"]
+		"uniques": ["Earn [5]% of [Land] opponent's [Cost] as [Culture] for kills"]
 	},
 	{
 		"name": "Goddess of Festivals",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Wine]","[+2 Culture] from every [Incense]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+2 Culture] from every [Wine]","[+2 Culture] from every [Incense]"]
 	},		
 	{
 		"name": "Goddess of Love",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Happiness] in all cities","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Happiness] in all cities"]
 	},	
 	{
 		"name": "Goddess of the Hunt",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Food] from every [Camp]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Food] from every [Camp]"]
 	},
 	{
 		"name": "God-King",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Gold] from every [Palace]","[+1 Production] from every [Palace]","[+1 Science] from every [Palace]","[+2 Culture] from every [Palace]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Gold] from every [Palace]","[+1 Production] from every [Palace]","[+1 Science] from every [Palace]","[+2 Culture] from every [Palace]"]
 	},
 	{
 		"name": "Messenger of the Gods",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Science] from each Trade Route","Cost increases by [-20] per owned city"]
+		"uniques": ["[+2 Science] from each Trade Route"]
 	},
 	{
 		"name": "Monument to the Gods",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["+15% production towards Wonder construction","Cost increases by [-20] per owned city"]
+		"uniques": ["+15% production towards Wonder construction"]
 	},
 		{
 		"name": "One with Nature",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]"]
 	},
 	{
 		"name": "Oral Tradition",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Plantation]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Plantation]"]
 	},	
 	{
 		"name": "Religious Idols",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Gold]","[+2 Culture] from every [Silver]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+2 Culture] from every [Gold]","[+2 Culture] from every [Silver]"]
 	},	
 	{
 		"name": "Religious Settlements",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["Increased rate of border expansion","Cost increases by [-20] per owned city"]
+		"uniques": ["Increased rate of border expansion"]
 	},
 	{
 		"name": "Sacred Path",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Jungle]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Culture] from every [Jungle]"]
 	},
 	{
 		"name": "Stone Circles",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Quarry]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+2 Culture] from every [Quarry]"]
 	},	
 	{
 		"name": "Sun God",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]"]
 	},
 	{
 		"name": "Tears of the Gods",
-		"cost": 120,
+		"cost": -1,
 		"isWonder": true,
-        "requiredResource": "Faith",
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Gems]","[+2 Culture] from every [Pearls]","[+1 Food] from every [Wheat]","Cost increases by [-20] per owned city"]
+		"uniques": ["[+2 Culture] from every [Gems]","[+2 Culture] from every [Pearls]","[+1 Food] from every [Wheat]"]
 	},	
 ]	

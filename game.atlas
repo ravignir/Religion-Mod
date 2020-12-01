@@ -88,13 +88,6 @@ BuildingIcons/Enhancer Belief
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Faith
-  rotate: false
-  xy: 2, 306
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Feed the World
   rotate: false
   xy: 2, 306
@@ -117,6 +110,13 @@ BuildingIcons/First Great Prophet
   offset: 0, 0
   index: -1
 BuildingIcons/Follower Belief
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Found a Pantheon
   rotate: false
   xy: 2, 306
   size: 200, 200
@@ -382,13 +382,6 @@ ImprovementIcons/Holy Site
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Faith
-  rotate: false
-  xy: 2, 306
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Buddhism
   rotate: false
   xy: 2, 104
@@ -511,6 +504,13 @@ BuildingIcons/Tengriism
 BuildingIcons/Zoroastrianism
   rotate: false
   xy: 1618, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Enhance Religion
+  rotate: false
+  xy: 406, 104
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

@@ -2,7 +2,7 @@
 		{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Found Religion]", "Can construct [Holy Site]", "Great Person", "Unbuildable"],
-		"movement": 2
+		"uniques": ["Can construct [Enhance Religion]", "Can construct [Found Religion]", "Can construct [Holy Site]", "Great Person", "Unbuildable"],
+		"movement": 3
 	},
 ]

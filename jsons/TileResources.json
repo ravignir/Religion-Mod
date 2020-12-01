@@ -1,9 +1,4 @@
 [
-	{
-		"name": "Faith",
-		"resourceType": "Strategic",
-		"culture": 1
-	},
 		{
 		"name": "Mosque",
 		"resourceType": "Strategic",

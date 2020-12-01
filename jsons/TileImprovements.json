@@ -8,4 +8,8 @@
 		"name": "Found Religion",
 		"uniques": ["Great Improvement","Allows Religion - place it next to city with Pantheon"]
 	},
+		{
+		"name": "Enhance Religion",
+		"uniques": ["Great Improvement","Enhances Religion - place it next to city with Religion"]
+	},
 ]
