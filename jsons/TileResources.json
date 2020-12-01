@@ -13,5 +13,14 @@
 		"name": "Cathedral",
 		"resourceType": "Strategic",
 		"culture": 1
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1, "production": 1},
 	},	
 ]	

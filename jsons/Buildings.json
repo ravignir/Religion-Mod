@@ -4,8 +4,8 @@
 		"name": "Found a Pantheon"
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Shrine",
-		"cost": 120,
-		"uniques": ["Allows to choose Pantheon","Cost increases by [-20] per owned city"]
+		"cost": 150,
+		"uniques": ["Allows to choose Pantheon","Cost increases by [-30] per owned city"]
 	},
 	{
 		"name": "Pantheon"
@@ -15,6 +15,12 @@
 	},
 	{
 		"name": "Religion"
+		"isNationalWonder": true,
+		"cost": -1,
+		"uniques": ["Unbuildable"]
+	},
+		{
+		"name": "Byzantium Belief"
 		"isNationalWonder": true,
 		"cost": -1,
 		"uniques": ["Unbuildable"]
@@ -61,7 +67,7 @@
 		"cost": 200,
 		"culture": 4,
 		"happiness": 2,
-		"uniques": ["Provides [1] [Pagoda]"],
+		"uniques": ["Provides [1] [Pagoda]","Not displayed as an available construction unless [Religion] is built"],
 	},
 		{
 		"name": "Cathedral",
@@ -70,7 +76,7 @@
 		"culture": 2,
 		"specialistSlots": {"Artist": 1},
 		"happiness": 1,
-		"uniques": ["Provides [1] [Cathedral]"],
+		"uniques": ["Provides [1] [Cathedral]","Not displayed as an available construction unless [Religion] is built"],
 	},
 		{
 		"name": "Mosque",
@@ -78,27 +84,27 @@
 		"cost": 200,
 		"culture": 5,
 		"happiness": 1,
-		"uniques": ["Provides [1] [Mosque]"],
+		"uniques": ["Provides [1] [Mosque]","Not displayed as an available construction unless [Religion] is built"],
 	},	
 	{	"name": "Missionary",
 		"requiredTech": "Philosophy",
 		"requiredBuilding": "Religion",
 		"cost": 200,
-		"uniques": ["Free [Missionary] appears","Sell for another Missionary"]
+		"uniques": ["Free [Missionary] appears","Sell for another Missionary","Not displayed as an available construction unless [Religion] is built"]
 	},	
 		{	"name": "First Great Prophet",
 		"requiredTech": "Calendar",
 		"isNationalWonder": true,
 		"requiredBuilding": "Pantheon",
 		"requiredBuildingInAllCities": "Temple",
-		"cost": 240,
-		"uniques": ["Free [Great Prophet] appears","Cost increases by [-40] per owned city"]
+		"cost": 300,
+		"uniques": ["Free [Great Prophet] appears","Cost increases by [-50] per owned city","Not displayed as an available construction unless [Pantheon] is built"]
 	},	
 			{	"name": "Great Prophet",
 		"requiredTech": "Calendar",
 		"requiredBuilding": "Religion",
-		"cost": 480,
-		"uniques": ["Free [Great Prophet] appears","Sell for another Prophet"]
+		"cost": 420,
+		"uniques": ["Free [Great Prophet] appears","Sell for another Prophet","Not displayed as an available construction unless [Religion] is built"]
 	},	
 	// Religion
 	{
@@ -108,6 +114,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]
 	},
 		{
 		"name": "Buddhism"
@@ -116,6 +123,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Confucianism"
@@ -124,6 +132,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Hinduism"
@@ -132,6 +141,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Islam"
@@ -140,6 +150,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Sikhism"
@@ -148,6 +159,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Shinto"
@@ -156,6 +168,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Tengriism"
@@ -164,6 +177,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Zoroastrianism"
@@ -172,6 +186,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Taoism"
@@ -180,6 +195,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 		{
 		"name": "Judaism"
@@ -188,6 +204,7 @@
 		"requiredBuilding": "Follower Belief",
 		"providesFreeBuilding": "Religion",
 		"cannotBeBuiltWith": "Religion",
+		"uniques": ["Not displayed as an available construction unless [Follower Belief] is built"]		
 	},
 	// Founder Beliefs
 	{
@@ -197,7 +214,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},	
 	{
 		"name": "Church Property",
@@ -206,7 +223,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+2 Gold] in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+2 Gold] in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},		
 	{
 		"name": "Papal Primacy",
@@ -215,7 +232,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","City-State Influence recovers at twice the normal rate"]
+		"uniques": ["Must be next to [Found Religion]","City-State Influence recovers at twice the normal rate","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},	
 		{
 		"name": "Peace Loving",
@@ -224,7 +241,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] per [8] population in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] per [8] population in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},	
 	{
 		"name": "Pilgrimage",
@@ -233,7 +250,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+2 Culture] in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+2 Culture] in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},		
 	{
 		"name": "Tithe",
@@ -242,7 +259,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+1 Gold] per [4] population in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+1 Gold] per [4] population in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},	
 	{
 		"name": "World Church",
@@ -251,7 +268,7 @@
 		"requiredBuilding": "Pantheon",
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
-		"uniques": ["Must be next to [Found Religion]","[+1 Culture] per [5] population in all cities"]
+		"uniques": ["Must be next to [Found Religion]","[+1 Culture] per [5] population in all cities","Not displayed as an available construction unless [First Great Prophet] is built"]
 	},	
 	// Follower Beliefs
 	{
@@ -261,7 +278,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+1 Happiness] from every [Shrine]"]
+		"uniques": ["[+1 Happiness] from every [Shrine]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 		{
 		"name": "Pagodas",
@@ -270,7 +287,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["May construct Pagodas","Provides [1] [Pagoda]"]
+		"uniques": ["May construct Pagodas","Provides [1] [Pagoda]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 		{
 		"name": "Mosques",
@@ -279,7 +296,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["May construct Mosques","Provides [1] [Mosque]"]
+		"uniques": ["May construct Mosques","Provides [1] [Mosque]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 		{
 		"name": "Cathedrals",
@@ -288,7 +305,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["May construct Cathedrals","Provides [1] [Cathedral]"]
+		"uniques": ["May construct Cathedrals","Provides [1] [Cathedral]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 	{
 		"name": "Divine Inspiration",
@@ -297,7 +314,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+2 Culture] from every Wonder"]
+		"uniques": ["[+2 Culture] from every Wonder","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 	{
 		"name": "Choral Music",
@@ -306,7 +323,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+2 Culture] from every [Temple]"]
+		"uniques": ["[+2 Culture] from every [Temple]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 	{
 		"name": "Feed the World",
@@ -315,7 +332,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+1 Food] from every [Temple]","[+1 Food] from every [Shrine]"]
+		"uniques": ["[+1 Food] from every [Temple]","[+1 Food] from every [Shrine]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},
 	{
 		"name": "Religious Art",
@@ -324,7 +341,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+8 Culture] from every [Hermitage]"]
+		"uniques": ["[+8 Culture] from every [Hermitage]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},
 	{
 		"name": "Guruship",
@@ -333,7 +350,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["[+2 Production] from every [Temple]"]
+		"uniques": ["[+2 Production] from every [Temple]","Not displayed as an available construction unless [Founder Belief] is built"]
 	},
 	{
 		"name": "Swords into Plowshares",
@@ -342,7 +359,7 @@
 		"requiredBuilding": "Founder Belief",
 		"providesFreeBuilding": "Follower Belief",
 		"cannotBeBuiltWith": "Follower Belief",
-		"uniques": ["+[15]% growth in all cities"]
+		"uniques": ["+[15]% growth in all cities","Not displayed as an available construction unless [Founder Belief] is built"]
 	},	
 	// Enhancer Belief
 	{
@@ -352,7 +369,7 @@
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Must be next to [Enhance Religion]"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
 	},	
 	{
 		"name": "Just War",
@@ -361,7 +378,7 @@
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Must be next to [Enhance Religion]"]
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
 	},
 	{
 		"name": "Reliquary",
@@ -370,7 +387,7 @@
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Enhance Religion]"]
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
 	},
 		{
 		"name": "Messiah",
@@ -379,7 +396,16 @@
 		"requiredBuilding": "Religion",
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
-		"uniques": ["+[25]% great person generation in all cities","Must be next to [Enhance Religion]"]
+		"uniques": ["+[25]% great person generation in all cities","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},
+			{
+		"name": "Holy Order",
+		"cost": -1,
+		"isWonder": true,
+		"requiredBuilding": "Religion",
+		"providesFreeBuilding": "Enhancer Belief",
+		"cannotBeBuiltWith": "Enhancer Belief",
+		"uniques": ["+[25]% Production when constructing [Great Prophet]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
 	},
 	// Pantheons
 	{
@@ -389,7 +415,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Shrine]"]
+		"uniques": ["[+1 Culture] from every [Shrine]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Dance of the Aurora",
@@ -398,7 +424,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Found a Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Tundra]"]
+		"uniques": ["[+1 Culture] from every [Tundra]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Desert Folklore",
@@ -407,7 +433,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Desert]"]
+		"uniques": ["[+1 Culture] from every [Desert]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Earth Mother",
@@ -416,7 +442,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]"]
+		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Fertility Rites",
@@ -425,7 +451,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["+[10]% growth in all cities"]
+		"uniques": ["+[10]% growth in all cities","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "God of Craftsmen",
@@ -434,7 +460,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Production] in all cities"]
+		"uniques": ["[+1 Production] in all cities","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "God of the Open Sky",
@@ -443,7 +469,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Pasture]"]
+		"uniques": ["[+1 Culture] from every [Pasture]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "God of the Sea",
@@ -452,7 +478,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Production] from every [Fishing Boats]"]
+		"uniques": ["[+1 Production] from every [Fishing Boats]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},	
 	{
 		"name": "God of War",
@@ -461,7 +487,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["Earn [5]% of [Land] opponent's [Cost] as [Culture] for kills"]
+		"uniques": ["Earn [5]% of [Land] opponent's [Cost] as [Culture] for kills","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Goddess of Festivals",
@@ -470,7 +496,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Wine]","[+2 Culture] from every [Incense]"]
+		"uniques": ["[+2 Culture] from every [Wine]","[+2 Culture] from every [Incense]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},		
 	{
 		"name": "Goddess of Love",
@@ -479,7 +505,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Happiness] in all cities"]
+		"uniques": ["[+1 Happiness] in all cities","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},	
 	{
 		"name": "Goddess of the Hunt",
@@ -488,7 +514,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Food] from every [Camp]"]
+		"uniques": ["[+1 Food] from every [Camp]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "God-King",
@@ -497,7 +523,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Gold] from every [Palace]","[+1 Production] from every [Palace]","[+1 Science] from every [Palace]","[+2 Culture] from every [Palace]"]
+		"uniques": ["[+1 Gold] from every [Palace]","[+1 Production] from every [Palace]","[+1 Science] from every [Palace]","[+2 Culture] from every [Palace]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Messenger of the Gods",
@@ -506,7 +532,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Science] from each Trade Route"]
+		"uniques": ["[+2 Science] from each Trade Route","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Monument to the Gods",
@@ -515,7 +541,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["+15% production towards Wonder construction"]
+		"uniques": ["+15% production towards Wonder construction","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 		{
 		"name": "One with Nature",
@@ -524,7 +550,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]"]
+		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Oral Tradition",
@@ -533,7 +559,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Plantation]"]
+		"uniques": ["[+1 Culture] from every [Plantation]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},	
 	{
 		"name": "Religious Idols",
@@ -542,7 +568,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Gold]","[+2 Culture] from every [Silver]"]
+		"uniques": ["[+2 Culture] from every [Gold]","[+2 Culture] from every [Silver]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},	
 	{
 		"name": "Religious Settlements",
@@ -551,7 +577,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["Increased rate of border expansion"]
+		"uniques": ["Increased rate of border expansion","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Sacred Path",
@@ -560,7 +586,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Jungle]"]
+		"uniques": ["[+1 Culture] from every [Jungle]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Stone Circles",
@@ -569,7 +595,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Quarry]"]
+		"uniques": ["[+2 Culture] from every [Quarry]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},	
 	{
 		"name": "Sun God",
@@ -578,7 +604,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]"]
+		"uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]","Not displayed as an available construction unless [Found a Pantheon] is built"]
 	},
 	{
 		"name": "Tears of the Gods",
@@ -587,6 +613,424 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"cannotBeBuiltWith": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Gems]","[+2 Culture] from every [Pearls]","[+1 Food] from every [Wheat]"]
+		"uniques": ["[+2 Culture] from every [Gems]","[+2 Culture] from every [Pearls]","[+1 Food] from every [Wheat]","Not displayed as an available construction unless [Found a Pantheon] is built"]
+	},	
+// YES GREAT THEODORA I LOVE TO COPY PASTA ENTIRE FILE JUST FOR YA
+// BYZANTINE BELIEFS
+	{
+		"name": "Additional Belief",
+		"cost": -1,
+		"uniqueTo": "Byzantium",
+		"isNationalWonder": true,
+		"requiredBuilding": "Religion",
+		"uniques": ["Must be next to [Found Religion]","Provides additional belief","Not displayed as an available construction unless [Religion] is built","Will not be displayed in Civilopedia"]
+	},	
+		{
+		"name": "Ceremonial Burial (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] in all cities","Not displayed as an available construction unless [Religion] is built"]
+		},
+	{
+		"name": "Church Property (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+2 Gold] in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},		
+	{
+		"name": "Papal Primacy (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","City-State Influence recovers at twice the normal rate","Not displayed as an available construction unless [Religion] is built"]
+	},	
+		{
+		"name": "Peace Loving (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+1 Happiness] per [8] population in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Pilgrimage (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+2 Culture] in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},		
+	{
+		"name": "Tithe (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+1 Gold] per [4] population in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "World Church (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Must be next to [Found Religion]","[+1 Culture] per [5] population in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	// Follower Beliefs
+	{
+		"name": "Ascetism (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Happiness] from every [Shrine]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+		{
+		"name": "Pagodas (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["May construct Pagodas","Provides [1] [Pagoda]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+		{
+		"name": "Mosques (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["May construct Mosques","Provides [1] [Mosque]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+		{
+		"name": "Cathedrals (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["May construct Cathedrals","Provides [1] [Cathedral]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Divine Inspiration (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every Wonder","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Choral Music (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every [Temple]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Feed the World (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Food] from every [Temple]","[+1 Food] from every [Shrine]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Religious Art (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+8 Culture] from every [Hermitage]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Guruship (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Production] from every [Temple]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Swords into Plowshares (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[15]% growth in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	// Enhancer Belief
+	{
+		"name": "Defender of the Faith (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Just War (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Reliquary (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},
+		{
+		"name": "Messiah (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[25]% great person generation in all cities","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},
+			{
+		"name": "Holy Order (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[25]% Production when constructing [Great Prophet]","Must be next to [Enhance Religion]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	// Pantheons
+	{
+		"name": "Ancestor Worship (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Shrine]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Dance of the Aurora (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Tundra]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Desert Folklore (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Desert]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Earth Mother (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Fertility Rites (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+[10]% growth in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "God of Craftsmen (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Production] in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "God of the Open Sky (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Pasture]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "God of the Sea (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Production] from every [Fishing Boats]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "God of War (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Earn [5]% of [Land] opponent's [Cost] as [Culture] for kills","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Goddess of Festivals (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every [Wine]","[+2 Culture] from every [Incense]","Not displayed as an available construction unless [Religion] is built"]
+	},		
+	{
+		"name": "Goddess of Love (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Happiness] in all cities","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Goddess of the Hunt (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Food] from every [Camp]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "God-King (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Gold] from every [Palace]","[+1 Production] from every [Palace]","[+1 Science] from every [Palace]","[+2 Culture] from every [Palace]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Messenger of the Gods (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Science] from each Trade Route","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Monument to the Gods (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["+15% production towards Wonder construction","Not displayed as an available construction unless [Religion] is built"]
+	},
+		{
+		"name": "One with Nature (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Oral Tradition (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Plantation]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Religious Idols (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every [Gold]","[+2 Culture] from every [Silver]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Religious Settlements (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["Increased rate of border expansion","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Sacred Path (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Culture] from every [Jungle]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Stone Circles (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every [Quarry]","Not displayed as an available construction unless [Religion] is built"]
+	},	
+	{
+		"name": "Sun God (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]","Not displayed as an available construction unless [Religion] is built"]
+	},
+	{
+		"name": "Tears of the Gods (BONUS)",
+		"cost": -1,
+		"isNationalWonder": true,
+		"requiredBuilding": "Additional Belief",
+		"providesFreeBuilding": "Byzantium Belief",
+		"cannotBeBuiltWith": "Byzantium Belief",
+		"uniques": ["[+2 Culture] from every [Gems]","[+2 Culture] from every [Pearls]","[+1 Food] from every [Wheat]","Not displayed as an available construction unless [Religion] is built"]
 	},	
 ]	

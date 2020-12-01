@@ -1,0 +1,28 @@
+[
+	//Religion mod
+	{
+		"name": "Byzantium",
+		"leaderName": "Theodora",
+		"adjective": ["Byzantine"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "All hail the most magnificent and magnanimous Empress Theodora, beloved of Byzantium and of Rome! From the lowly ranks of actress and courtesan you became the most powerful woman in the Roman Empire, consort to Justinian I. Starting in the late 520's AD, you joined your husband in a series of important spiritual and legal reforms, creating many laws which elevated the status of and promoted equal treatment of women in the empire. You also aided in the restoration and construction of many aqueducts, bridges and churches across Constantinople, culminating in the creation of the Hagia Sophia, one of the most splendid architectural wonders of the world.",
+		"startIntroPart2": "Beautiful Empress, Byzantium is in need of your wisdom and strength - her people are lost without your light to lead them. The Byzantine Empire may have fallen once, but its spirit is still intact waiting to be reborn anew. Can you return Byzantium to the heights of glory it once enjoyed? Can you create a civilization to stand the test of time?",
+		"declaringWar": "It has always been a shame throwing away beauty. Thankfully, not like that.",
+		"attacked": "Now that riots are needed, friend, we'll teach you a lesson.",
+		"defeated": "I hope you knew that to act like that. Just know that in this world nobody will aid a traitor.",
+		"introduction": "Oh! A miracle in front of my eyes. What is the name of this good stranger? I am Theodora, friend of Byzantium.",
+		"neutralHello": "Sweet.",
+		"tradeRequest": "I heard nice things from you in your latest sayings...show me.",
+		"outerColor": [88,145,228],
+		"innerColor": [80,23,135],
+		"uniqueName": "Patriarchate of Constantinople",
+		"uniqueText": " Choose one more Belief than normal when you found a Religion
+		",
+		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
+			"Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
+			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
+			"Caesarea Maritima","Traianoupoli","Constantia","Korinthos","Patra"]
+	},
+]
