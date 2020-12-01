@@ -4,7 +4,7 @@
 		"name": "Found a Pantheon"
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Shrine",
-		"cost": 150,
+		"cost": 120,
 		"uniques": ["Allows to choose Pantheon","Cost increases by [-30] per owned city"]
 	},
 	{
@@ -97,8 +97,8 @@
 		"isNationalWonder": true,
 		"requiredBuilding": "Pantheon",
 		"requiredBuildingInAllCities": "Temple",
-		"cost": 300,
-		"uniques": ["Free [Great Prophet] appears","Cost increases by [-50] per owned city","Not displayed as an available construction unless [Pantheon] is built"]
+		"cost": 240,
+		"uniques": ["Free [Great Prophet] appears","Cost increases by [-60] per owned city","Not displayed as an available construction unless [Pantheon] is built"]
 	},	
 			{	"name": "Great Prophet",
 		"requiredTech": "Calendar",
