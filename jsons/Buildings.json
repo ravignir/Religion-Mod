@@ -60,7 +60,7 @@
 		"requiredResource": "Pagoda",
 		"cost": 200,
 		"culture": 4,
-		"hapiness": 2,
+		"happiness": 2,
 		"uniques": ["Provides [1] [Pagoda]"],
 	},
 		{
@@ -69,7 +69,7 @@
 		"cost": 200,
 		"culture": 2,
 		"specialistSlots": {"Artist": 1},
-		"hapiness": 1,
+		"happiness": 1,
 		"uniques": ["Provides [1] [Cathedral]"],
 	},
 		{
@@ -77,7 +77,7 @@
 		"requiredResource": "Mosque",
 		"cost": 200,
 		"culture": 5,
-		"hapiness": 1,
+		"happiness": 1,
 		"uniques": ["Provides [1] [Mosque]"],
 	},	
 	{	"name": "Missionary",
