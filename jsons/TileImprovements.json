@@ -2,14 +2,18 @@
 	{
 		"name": "Holy Site",
 		"culture": 5,
-		"uniques": ["Great Improvement","[+3 Gold] once [Flight] is discovered"]
+		"uniques": ["Great Improvement"]
 	},
 	{
-		"name": "Found Religion",
-		"uniques": ["Great Improvement","Allows Religion - place it next to city with Pantheon"]
+		"name": "Found or Enhance Religion",
+		"uniques": ["Great Improvement","Needed to found or enhance Religion","Provides [1] [Faith]"]
 	},
 		{
-		"name": "Enhance Religion",
-		"uniques": ["Great Improvement","Enhances Religion - place it next to city with Religion"]
+		"name": "Second Pantheon",
+		"uniques": ["Great Improvement","Needed to choose second Pantheon","Provides [1] [Pantheons]"]
+	},
+		{
+		"name": "Reformation",
+		"uniques": ["Great Improvement","Needed to choose second Pantheon","Provides [1] [Reformation]"]
 	},
 ]

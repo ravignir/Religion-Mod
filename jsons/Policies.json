@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Piety",
+		"era": "Ancient era",
+		"uniques": ["+[15]% Production when constructing [Culture] buildings","+[50]% Production when constructing [Temple]","+[50]% Production when constructing [Shrine]","Unlocks building the Great Mosque of Djenne"],
+		"policies": [
+			{
+				"name": "Organized Religion",
+				"uniques": ["[+1 Culture] from every [Shrine]","[+1 Culture] from every [Temple]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mandate Of Heaven",
+				"uniques": ["+[20]% Production when constructing [Pagoda]","+[20]% Production when constructing [Cathedral]","+[20]% Production when constructing [Mosque]","+[20]% Production when constructing [Missionary]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Theocracy",
+				"uniques": ["+[25]% [Gold] from every [Temple]","[+3 Gold] from every [Holy Site]"],
+				"requires": ["Organized Religion"],
+				"row": 2,
+				"column": 1
+			},
+						{
+				"name": "Religious Tolerance",
+				"uniques": ["Free [Second Pantheon Belief] appears"],
+				"requires": ["Organized Religion"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Reformation",
+				"uniques": ["Free [Reformation] appears"],
+				"requires": ["Religious Tolerance","Mandate Of Heaven"],
+				"row": 3,
+				"column": 4
+			},
+
+			{
+				"name": "Piety Complete",
+				"uniques": ["[+3 Culture] from every [Holy Site]","Free [Great Prophet] appears"]
+			}
+		]
+	},
+]

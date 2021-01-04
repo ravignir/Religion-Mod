@@ -2,7 +2,19 @@
 		{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Enhance Religion]", "Can construct [Found Religion]", "Can construct [Holy Site]", "Great Person", "Unbuildable"],
-		"movement": 3
+		"uniques": ["Can construct [Found or Enhance Religion]", "Can construct [Holy Site]", "Great Person", "Unbuildable"],
+		"movement": 2
+	},
+				{
+		"name": "Reformation",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Reformation]","Unbuildable"],
+		"movement": 2
+	},
+					{
+		"name": "Second Pantheon Belief",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Second Pantheon]","Unbuildable"],
+		"movement": 2
 	},
 ]

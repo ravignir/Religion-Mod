@@ -1,26 +1,47 @@
 [
 		{
 		"name": "Mosque",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"culture": 1
 	},
 		{
 		"name": "Pagoda",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"culture": 1
 	},
 		{
 		"name": "Cathedral",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"culture": 1
 	},
-	{
-		"name": "Salt",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
-		"gold": 1,
-		"food": 1,
-		"improvement": "Mine",
-		"improvementStats": {"food": 1, "production": 1},
-	},	
+			{
+		"name": "Faith",
+		"resourceType": "Bonus",
+		"culture": 1
+	},
+				{
+		"name": "Reformation",
+		"resourceType": "Bonus",
+		"culture": 1
+	},
+				{
+		"name": "Pantheons",
+		"resourceType": "Bonus",
+		"culture": 1
+	},
+					{
+		"name": "Follower Beliefs",
+		"resourceType": "Bonus",
+		"culture": 1
+	},
+						{
+		"name": "Missionaries",
+		"resourceType": "Bonus",
+		"culture": 1
+	},
+						{
+		"name": "Prophets",
+		"resourceType": "Bonus",
+		"culture": 1
+	}
 ]	
