@@ -186,6 +186,13 @@ BuildingIcons/Just War (BONUS)
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Liturgical Drama (BONUS)
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Messenger of the Gods (BONUS)
   rotate: false
   xy: 2, 2
@@ -257,6 +264,20 @@ BuildingIcons/Pilgrimage (BONUS)
   offset: 0, 0
   index: -1
 BuildingIcons/Religious Art (BONUS)
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Center (BONUS)
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Community (BONUS)
   rotate: false
   xy: 2, 2
   size: 100, 100
@@ -417,6 +438,13 @@ BuildingIcons/Enhancer Belief
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Faith
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Feed the World
   rotate: false
   xy: 2, 306
@@ -529,7 +557,21 @@ BuildingIcons/Guruship
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Holy Order
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Just War
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Liturgical Drama
   rotate: false
   xy: 2, 306
   size: 200, 200
@@ -634,6 +676,20 @@ BuildingIcons/Religious Art
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Religious Center
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Community
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Religious Idols
   rotate: false
   xy: 2, 306
@@ -705,6 +761,13 @@ BuildingIcons/World Church
   offset: 0, 0
   index: -1
 ImprovementIcons/Holy Site
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Faith
   rotate: false
   xy: 2, 306
   size: 200, 200
@@ -837,28 +900,56 @@ BuildingIcons/Zoroastrianism
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Enhance Religion
+ImprovementIcons/Found or Enhance Religion
   rotate: false
   xy: 406, 104
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Found Religion
+ImprovementIcons/Reformation
   rotate: false
   xy: 406, 104
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Second Pantheon
+  rotate: false
+  xy: 406, 104
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religious Tolerance
+  rotate: false
+  xy: 1820, 456
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Holy Site
   rotate: false
-  xy: 1820, 470
+  xy: 104, 66
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 UnitIcons/Great Prophet
+  rotate: false
+  xy: 608, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Reformation
+  rotate: false
+  xy: 608, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Second Pantheon Belief
   rotate: false
   xy: 608, 306
   size: 200, 200
