@@ -382,6 +382,13 @@ BuildingIcons/Ceremonial Burial
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Charitable Missions
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Choral Music
   rotate: false
   xy: 2, 306
@@ -564,6 +571,13 @@ BuildingIcons/Holy Order
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Jesuit Education
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Just War
   rotate: false
   xy: 2, 306
@@ -718,6 +732,13 @@ BuildingIcons/Sacred Path
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Sacred Sites
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Stone Circles
   rotate: false
   xy: 2, 306
@@ -747,6 +768,13 @@ BuildingIcons/Tears of the Gods
   offset: 0, 0
   index: -1
 BuildingIcons/Tithe
+  rotate: false
+  xy: 2, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/To the Glory of God
   rotate: false
   xy: 2, 306
   size: 200, 200
