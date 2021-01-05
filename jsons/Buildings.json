@@ -215,7 +215,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Happiness] in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Happiness] in all cities","Not displayed as an available construction without [Faith]"]
 	},	
 	{
 		"name": "Church Property",
@@ -225,7 +225,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+2 Gold] in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+2 Gold] in all cities","Not displayed as an available construction without [Faith]"]
 	},		
 	{
 		"name": "Papal Primacy",
@@ -235,7 +235,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","City-State Influence recovers at twice the normal rate","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","City-State Influence recovers at twice the normal rate","Not displayed as an available construction without [Faith]"]
 	},	
 		{
 		"name": "Peace Loving",
@@ -245,7 +245,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Happiness] per [8] population in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Happiness] per [8] population in all cities","Not displayed as an available construction without [Faith]"]
 	},	
 	{
 		"name": "Pilgrimage",
@@ -255,7 +255,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+2 Culture] in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+2 Culture] in all cities","Not displayed as an available construction without [Faith]"]
 	},		
 	{
 		"name": "Tithe",
@@ -265,7 +265,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Gold] per [4] population in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Gold] per [4] population in all cities","Not displayed as an available construction without [Faith]"]
 	},	
 	{
 		"name": "World Church",
@@ -275,7 +275,7 @@
 		"providesFreeBuilding": "Founder Belief",
 		"cannotBeBuiltWith": "Founder Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Culture] per [5] population in all cities","Not displayed as an available construction without [First Great Prophet]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","[+1 Culture] per [5] population in all cities","Not displayed as an available construction without [Faith]"]
 	},	
 	// Follower Beliefs
 	{
