@@ -404,7 +404,7 @@
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","+[20]% combat bonus for units fighting in [Friendly Land]","Not displayed as an available construction without [Religion]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","+[20]% combat bonus for units fighting in [Friendly Land]","Not displayed as an available construction without [Religion]","Not displayed as an available construction without [Faith]"]
 	},	
 	{
 		"name": "Just War",
