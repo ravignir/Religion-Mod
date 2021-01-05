@@ -414,7 +414,7 @@
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","+[20]% combat bonus for units fighting in [Foreign Land]","Not displayed as an available construction without [Religion]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","+[20]% combat bonus for units fighting in [Foreign Land]","Not displayed as an available construction without [Religion]","Not displayed as an available construction without [Faith]"]
 	},
 	{
 		"name": "Reliquary",
@@ -424,7 +424,7 @@
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","Provides a sum of gold each time you spend a Great Person","Not displayed as an available construction without [Religion]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","Provides a sum of gold each time you spend a Great Person","Not displayed as an available construction without [Religion]","Not displayed as an available construction without [Faith]"]
 	},
 		{
 		"name": "Messiah",
@@ -434,7 +434,7 @@
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","+[25]% Production when constructing [Great Prophet]","Not displayed as an available construction without [Religion]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","+[25]% Production when constructing [Great Prophet]","Not displayed as an available construction without [Religion]","Not displayed as an available construction without [Faith]"]
 	},
 			{
 		"name": "Holy Order",
@@ -444,7 +444,7 @@
 		"providesFreeBuilding": "Enhancer Belief",
 		"cannotBeBuiltWith": "Enhancer Belief",
 		"requiredResource": "Faith",
-		"uniques": ["Provides [1] [Follower Beliefs]","+[40]% Production when constructing [Missionary]","Not displayed as an available construction without [Religion]"]
+		"uniques": ["Provides [1] [Follower Beliefs]","+[40]% Production when constructing [Missionary]","Not displayed as an available construction without [Religion]","Not displayed as an available construction without [Faith]"]
 },
 	// Pantheons
 	{
