@@ -1,16 +1,16 @@
 [
 		{
-		"name": "Mosque",
+		"name": "xMosque",
 		"resourceType": "Bonus",
 		"culture": 1
 	},
 		{
-		"name": "Pagoda",
+		"name": "xPagoda",
 		"resourceType": "Bonus",
 		"culture": 1
 	},
 		{
-		"name": "Cathedral",
+		"name": "xCathedral",
 		"resourceType": "Bonus",
 		"culture": 1
 	},
