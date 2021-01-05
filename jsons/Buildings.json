@@ -57,7 +57,7 @@
 	{
 		"name": "Shrine",
 		"requiredTech": "Pottery",
-		"cost": 20,
+		"cost": 30,
 		"culture": 1,
 		"maintenance": 1,
 	},
