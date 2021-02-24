@@ -17,4 +17,12 @@
 		"uniques": ["Can construct [Second Pantheon]","Unbuildable"],
 		"movement": 2
 	},
+		{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
+			"Limited Visibility","Requires [Religion]"],
+		"cost": 200
+	},
 ]
