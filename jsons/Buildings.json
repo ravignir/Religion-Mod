@@ -573,7 +573,7 @@
 		"requiredBuilding": "Found a Pantheon",
 		"providesFreeBuilding": "Pantheon",
 		"requiredResource": "Pantheons",
-		"uniques": ["+15% production towards Wonder construction","Not displayed as an available construction without [Pantheons]"]
+		"uniques": ["+[15]% Production when constructing [Wonders]","Not displayed as an available construction without [Pantheons]"]
 	},
 		{
 		"name": "One with Nature",
@@ -1057,7 +1057,7 @@
 		"requiredBuilding": "Additional Belief",
 		"providesFreeBuilding": "Byzantium Belief",
 		"cannotBeBuiltWith": "Byzantium Belief",
-		"uniques": ["+15% production towards Wonder construction","Not displayed as an available construction without [Additional Belief]","Will not be displayed in Civilopedia"]
+		"uniques": ["+[15]% Production when constructing [Wonders]","Not displayed as an available construction without [Additional Belief]","Will not be displayed in Civilopedia"]
 	},
 		{
 		"name": "One with Nature (BONUS)",
